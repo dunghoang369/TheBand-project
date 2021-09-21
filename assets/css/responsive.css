@@ -1,0 +1,38 @@
+@media (max-width: 740px) {
+
+    .mobile-three-cols{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 6px 43px;
+    }
+    .search-button {
+        display: none;
+    }
+    .menu-button {
+        display: inline-block;
+    }
+    .member-list .member-img{
+        width: 60%;
+        height: 60%;
+    }
+}
